@@ -1,0 +1,46 @@
+/* General */
+body, html, #root { margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif; }
+.app-container { display: flex; justify-content: center; align-items: center; height: 100%; background: #f0f2f5; }
+.app-container.dark { background: #1e1e1e; color: #fff; }
+.app-container.light { background: #f0f2f5; color: #c41313a5; }
+
+/* Login */
+.login-box { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 0 15px rgba(0,0,0,0.2); text-align: center; }
+.login-box input { padding: 10px; width: 200px; margin-bottom: 20px; border-radius: 6px; border: 1px solid #ccc; }
+.login-box button { padding: 10px 20px; border-radius: 6px; border: none; background: #007bff; color: white; cursor: pointer; }
+.login-box button:hover { background: #0056b3; }
+
+/* Chat Layout */
+.chat-container { display: flex; height: 90vh; width: 90vw; max-width: 1200px; background: #fff; border-radius: 12px; overflow: hidden; }
+.app-container.dark .chat-container { background: #2c2c2c; }
+
+/* Sidebar */
+.sidebar { width: 25%; padding: 20px; border-right: 1px solid #ddd; background: #f7f7f7; }
+.app-container.dark .sidebar { background: #3c3c3c; border-color: #555; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar li { margin: 10px 0; }
+
+/* Chat Box */
+.chat-box { width: 75%; display: flex; flex-direction: column; justify-content: space-between; }
+.messages { flex: 1; padding: 20px; overflow-y: auto; background: #e5ddd5; }
+.app-container.dark .messages { background: #1f1f1f; }
+
+/* Messages */
+.message { margin-bottom: 15px; padding: 10px; border-radius: 12px; max-width: 60%; }
+.sent { background: #007bff; color: white; margin-left: auto; border-bottom-right-radius: 0; }
+.received { background: #f1f0f0; margin-right: auto; border-bottom-left-radius: 0; }
+.app-container.dark .received { background: #3c3c3c; color: #fff; }
+.message-info { display: flex; justify-content: space-between; font-size: 0.75rem; opacity: 0.8; margin-bottom: 4px; }
+
+/* Input Area */
+.input-area { display: flex; padding: 10px; border-top: 1px solid #ddd; background: #f7f7f7; }
+.app-container.dark .input-area { background: #3c3c3c; border-color: #555; }
+.input-area input { flex: 1; padding: 10px; border-radius: 20px; border: 1px solid #ccc; margin-right: 10px; }
+.input-area button { padding: 10px 15px; border-radius: 20px; border: none; background: #007bff; color: white; cursor: pointer; }
+.input-area button:hover { background: #0056b3; }
+
+/* Typing Indicator */
+.typing { padding: 5px 20px; font-style: italic; color: gray; }
+
+/* Emoji Picker override */
+.emoji-picker-react { position: absolute; bottom: 70px; right: 20px; z-index: 1000; }
