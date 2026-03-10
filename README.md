@@ -35,3 +35,7 @@ The interface of the chat application is designed to be responsive so that it wo
 
 Real-time chat applications have many practical uses in today’s digital world. They are commonly used in social media platforms, online customer support systems, collaborative work environments, gaming platforms, and educational communication tools. For example, companies use chat systems for customer service where users can communicate with support agents instantly. Similarly, messaging features are integrated into collaboration tools to allow team members to communicate while working remotely.
 Overall, this project demonstrates how modern web technologies can be combined to build a fully functional real-time communication platform. By using React for the frontend, Node.js for the backend, and Socket.IO for real-time messaging, the application efficiently handles multiple users and instant message delivery. This project also helps in understanding how real-time systems work and how WebSocket-based communication can be implemented in modern web applications.
+
+OUTPUT:
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7335899d-c3b7-485b-b1a7-93c089beb5fd" />
